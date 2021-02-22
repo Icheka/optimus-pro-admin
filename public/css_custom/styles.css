@@ -1,0 +1,49 @@
+#clock {
+    text-align: center;
+    font-size: 200%;
+    display: block;
+    width: 100%;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.mt-push {
+    margin-top: 10vh;
+}
+@media (max-width: 768px) {
+    .mt-push {
+        margin-top: 12vh;
+    }
+}
+
+.card {
+    box-shadow: 1px 1px 2px 1px #ddd, -1px -1px 2px 1px #ddd, -1px 1px 2px 1px #ddd, 1px -1px 2px 1px #ddd;
+}
+
+.overflow-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: none;
+}
+
+.view-tagline {
+    font-size: 120%;
+    font-weight: 600;
+    border: 2px solid #efefef;
+    background-color: white;
+    padding: 4px 6px;
+    width: 98%;
+}
+@media (max-width: 768px) {
+    .view-tagline {
+        width: 94%;
+        margin: 10px auto 0;
+    }
+}
+
+.view-area {
+    width: 100%;
+    max-width: 1200px;
+    margin: 10vh auto auto;
+    /* overflow-y: scroll; */
+}

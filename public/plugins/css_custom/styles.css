@@ -1,0 +1,8 @@
+#clock {
+    text-align: center;
+    font-size: 200%;
+    display: block;
+    width: 100%;
+    color: goldenrod;
+    font-weight: bold;
+}
