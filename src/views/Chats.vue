@@ -116,7 +116,7 @@ export default class Chats extends Vue {
         let elements = document.getElementsByClassName('persons-tab');
         for (const element of elements) element.classList.remove('active');
 
-        e.currentTarget!.classList!.add('active');
+        e.currentTarget!['classList']!.add('active');
         this.user_id = user_id;
         this.getMessages();
         this.getInfoAboutUser();
